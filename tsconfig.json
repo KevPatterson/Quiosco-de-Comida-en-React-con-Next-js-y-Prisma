@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                                /* Actualizado para usar la última versión de JavaScript. */
+    "module": "CommonJS",                              /* Especifica que el módulo es CommonJS, lo cual es común en Node.js. */
+    "esModuleInterop": true,                           /* Mejora la compatibilidad con CommonJS y ES Modules. */
+    "strict": true,                                    /* Habilita todas las opciones de verificación estricta de tipo. */
+    "skipLibCheck": true,                              /* Omite la verificación de archivos .d.ts. */
+    "forceConsistentCasingInFileNames": true           /* Asegura el uso consistente de mayúsculas y minúsculas en los nombres de archivo. */
+  },
+  "include": ["prisma/**/*.ts"],                       /* Asegura que se incluyan los archivos TypeScript dentro de la carpeta prisma. */
+  "exclude": ["node_modules"]                          /* Excluye la carpeta node_modules. */
+}
